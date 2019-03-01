@@ -1,0 +1,38 @@
+@import '/css/normalize.css';
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+article.superior {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-grow: 1;
+}
+
+article.superior > * {
+  width: 50%;
+}
+
+article.superior figure img {
+  max-width: 100%;
+}
+
+footer.inferior {
+  background: lightgray;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.inferior p {
+  padding: 0 2rem;
+}

@@ -1,0 +1,29 @@
+body {
+    background: gray;
+    display: flex;
+
+}
+
+body > header {
+    width: 30%;
+    background: yellow;
+    color: red;
+    margin-right: 1rem;
+    min-height: 100vh;
+}
+
+body > header > nav > ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+body > header > h1 {
+    text-align: center;
+}
+
+nav > li {
+    background: yellow;
+    padding: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+

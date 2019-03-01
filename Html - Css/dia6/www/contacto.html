@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="formulario de contacto">
+    <link rel="stylesheet" href="/css/estilos.css">
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Blog de 💩 de Javier Sanesteban</h1>
+        <h3>Aquí pongo un subtitulo de la página</h3>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/estadisticas.html">Estadísticas</a></li>
+                <li><a href="/imagenes.html">Imágenes</a></li>
+                <li><a href="/audiovisual.html">Audiovisual</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="formulario">
+        <h2>Este es el formulario de contacto</h2>
+        <form action="contacto.html" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa aquí tu nombre">
+                    </li>
+                    <li>
+                        <label for="apellidos">Apellidos: </label>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Ingresa aquí tus apellidos">
+                    </li>
+                    <li>
+                        <label for="nacimiento">Nacimiento: </label>
+                        <input type="date" name="nacimiento" id="nacimiento">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Datos demográficos</legend>
+                <ul>
+                    <li>
+                        <label for="pais">País:</label>
+                        <select name="pais" id="pais">
+                            <option value="españa">España</option>
+                            <option value="francia">Francia</option>
+                            <option value="italia">Italia</option>
+                            <option value="alemania">Alemania</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="postal">Código Postal:</label>
+                        <input type="number" name="postal" id="postal" placeholder="Introduce tu código postal"
+                            required>
+                    </li>
+                    <li>
+                        <label for="sexo">Hombre</label>
+                        <input type="radio" name="sexo" value="hombre">
+                        <label for="sexo">Mujer</label>
+                        <input type="radio" name="sexo" value="mujer">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <ul>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Inserta tu mail">
+                    </li>
+                    <li>
+                        <label for="telf">Telf:</label>
+                        <input type="number" name="telf" id="telf" placeholder="Inserta tu teléfono">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                    <legend>Datos de la tarjeta</legend>
+                    <ul>
+                        <li>
+                            <label for="tarjeta">Número tarjeta crédito:</label>
+                            <input type="text" name="tarjeta" id="tarjeta" required placeholder="Inserta tu tarjeta de crédito" minlength="16" maxlength="16">
+                        </li>
+                        <li>
+                                <label for="cvv">Cvv:</label>
+                                <input type="text" name="cvv" id="cvv" required placeholder="cvv" minlength="3" maxlength="3">
+                        </li>
+                    </ul>
+                </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar</button>
+        </form>
+    </section>
+    <footer>
+        <p>(c) 2019, Sanesteban</p>
+        <address>
+            <p>Javier Sanesteban</p>
+            <p><a href="mailto:javiersanesteban@gmail.com">javiersanesteban@gmail.com</a>
+            </p>
+            <p><a href="tel:+34679338610">679338610</a></p>
+        </address>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: lightgray;
+  }
+  
+  h1,
+  p {
+    margin: 0;
+  }
+  
+  h1 {
+    background: orange;
+  }
+  
+  p {
+    background: blue;
+    color: white;
+  }
+  
+  p strong {
+    background: white;
+    color: black;
+    position: relative;
+  }
+  
+  p strong span {
+    background: green;
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    display: none;
+  }
+  
+  p strong:hover span {
+    display: inline;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+        background: green;
+      }
+      
+  }
+
+  @media (min-width: 1000px) {
+      html {
+          font-size: 32px;
+      }
+  }

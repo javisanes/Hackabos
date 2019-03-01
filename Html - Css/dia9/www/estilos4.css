@@ -1,0 +1,35 @@
+@import '/css/normalize.css';
+
+html {
+    background: grey
+}
+body {
+    background: whitesmoke;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 80%;
+    min-width: 450px;
+
+
+}
+
+.garaje {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.uno, .dos {
+    padding: 1rem;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+#title {
+    padding: 1rem;
+    font-family: sans-serif;
+
+}

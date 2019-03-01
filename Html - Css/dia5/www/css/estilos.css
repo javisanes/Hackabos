@@ -1,0 +1,48 @@
+@import "otro.css";
+
+body {
+    font-family: 'Courier New';
+
+}
+
+h1, h2 {
+    color: blue;
+    background: yellow;
+    text-decoration: underline;
+}
+
+#python {
+    background: green;
+}
+
+#prueba {
+    background: fuchsia;
+}
+.importante {
+    color: black;
+    background: gray
+}
+
+.super {
+    font-size: 2rem;
+}
+
+* {
+    padding: 10px;
+}
+
+.super h2 {
+background: red;
+}
+
+.importante >p {
+    text-decoration: underline;
+}
+
+.primero {
+    font-size: 1.5rem;
+}
+
+.primero + li {
+    background: green;
+}

@@ -1,0 +1,31 @@
+.uno {
+    background: yellow;
+}
+
+.dos {
+    margin-top: 20px;
+    background: lightcyan;
+    width: 20rem;
+    height: 50%;
+    padding: 3rem 3rem 3rem 2rem
+}
+
+.dos span {
+    background: lightpink;
+}
+
+header {
+    background: green;
+    height: 400px;
+    width: 400px;
+    border: 24px solid black;
+    padding: auto;
+}
+
+header h1 {
+    background: rebeccapurple;
+    color: white;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}

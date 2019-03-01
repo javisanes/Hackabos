@@ -1,0 +1,52 @@
+@import '/css/normalize.css';
+@import '/css/generico.css';
+
+
+
+h2 {
+    text-align: center;
+}
+.centro
+form fieldset {
+    border: none;
+}
+
+fieldset {
+    display: flex;
+}
+
+#comentario {
+    height: 200px;
+    resize: vertical;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#name, #provincia, #ciudad {
+    width: 100%;
+    border: 1px solid gray;
+    height: 2rem;
+}
+
+button {
+    margin-left: 1rem;
+    border: none;
+    padding: 1rem;
+    background: #2A7EC5;
+    color: white;
+}
+
+.formulario {
+    width: 100%;
+}
+
+.telefono, .direccion {
+    margin: 1rem;
+
+}
+
+.telefono {
+    background: lightgray;
+    border: 1px solid gray;
+    padding: 0rem 2rem;
+}

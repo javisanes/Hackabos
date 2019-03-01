@@ -1,0 +1,52 @@
+h1 {
+    color: gold;
+    background: blue;
+}
+
+p.parrafo {
+    background: lightgray;
+}
+
+#principal {
+    background: green
+}
+
+.verde {
+    text-decoration: underline
+}
+
+blockquote[lang] {
+    background: red
+}
+
+[data-hackabos] {
+    text-decoration: underline
+}
+
+[data-hackabos='3'] {
+    color: red
+}
+
+[data-etiquetas~='css'] {
+    font-size: 2rem
+}
+
+li[data-nombre^='Javi'] {
+    color: tomato;
+}
+
+li[data-nombre$='lla'] {
+    background: blueviolet;
+}
+
+li[data-nombre*='vi'] {
+    text-decoration: underline;
+}
+
+[data-link='externo'] {
+    font-style: bold;
+}
+
+[href^='https'] {
+    font-weight: bold;
+}

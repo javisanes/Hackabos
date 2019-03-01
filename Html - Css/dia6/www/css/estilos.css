@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+
+html {
+    font-size: 16px;
+    background: url(/multimedia/tacky.gif);
+}
+
+body {
+    background: rgb(13, 224, 252);
+    width: 1024px;
+    border: 10px solid  rgb(249,56,252);
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+body > header > h1 {
+    color: rgb(249,56,252);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: -2px;
+    width: 900px;
+    background: rgb(56, 252, 72);
+    padding: 50px;
+    border: 10px solid  rgb(3, 0, 184);
+}
+
+h2 {
+    color: rgb(250,0, 171);
+    font-family: 'Cute Font', cursive;
+    font-size: 2.2rem;
+}
+
+.especial {
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.intro {
+    color: white;
+}
+
+h4 {
+    color: rgb(56, 252, 72);
+    background: black;
+    font-family: 'Cute Font', cursive;
+    font-size: 1.5rem;
+ 
+}
+
+#posts {
+    background: rgb(3, 0, 184);
+}
+
+
+nav ul {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    list-style-image: url(/multimedia/poop.png);
+   /* list-style-type: none; */
+}
+
+a:link {
+    color: deeppink;
+    background:rgb(56, 252, 72);;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block
+
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: greenyellow;
+    font-weight: bold;
+    background: rebeccapurple;
+}
+
+a:focus {
+    color: darkmagenta;
+}
+
+a:active {
+    color: lawngreen;
+}
+
+
+table, th, td {
+    background: lawngreen;
+    border: 3px solid darkblue;
+    border-collapse: collapse;
+}
+
+p {
+    font-family: 'Cute Font', cursive;
+    font-size: 1.5rem;
+
+}

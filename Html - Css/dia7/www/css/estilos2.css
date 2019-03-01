@@ -1,0 +1,78 @@
+a {
+    background-color: lightblue
+}
+a:visited {
+    text-decoration: green;
+    background-color: green;
+}
+
+a:hover {
+    font-size: 3rem;
+}
+
+input[type="checkbox"] {
+    margin-left: 6rem;
+}
+
+input[type='checkbox']:checked {
+    margin-left: 0rem;
+}
+
+li {
+    font-size: 2rem;
+}
+
+li:last-child {
+    margin-left: 3rem;
+}
+
+li:last-child {
+    margin-left: 2rem;
+}
+
+li:nth-child(2) {
+    font-family: monospace;
+}
+
+.rayas li:nth-child(even) {
+    background: red;
+}
+
+.rayas li:nth-child(odd) {
+    background: blue;
+}
+
+.rayas li:not(:first-child) {
+    font-size: 3rem;
+}
+
+.rayas li:not(.guay) {
+    color: aliceblue;
+}
+
+#elementos h2 {
+    color: royalblue
+}
+
+#elementos h2::first-letter {
+    font-size: 3rem;
+    color: red;
+}
+
+#elementos p {
+    font-family: sans-serif;
+}
+
+#elementos p::first-line {
+    font-weight: bold;
+    color: darkslategrey
+}
+
+#elementos p::selection {
+    background: green;
+    color: white;
+}
+
+.colorin a[href^='http']::after {
+    content: '<<';
+}

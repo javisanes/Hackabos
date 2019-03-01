@@ -1,0 +1,73 @@
+@import '/css/normalize.css';
+
+body {
+    background: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin: 2rem 0 2rem 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline;
+
+}
+
+a.uno {
+    text-decoration: none;
+    background: lightgreen;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+a.dos {
+    text-decoration: none;
+    background: orange;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
+    margin-left: 0.5rem;
+    background-image: url(/media/reciclaje.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 1.2rem;
+    background-position-y: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+p.principal {
+    color: white;
+    max-width: 500px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
+    
+}
+
+p.coletilla {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+
+}

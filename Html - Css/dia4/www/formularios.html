@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de contactop</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="formularios.html" method="GET">
+            <fieldset>
+                <legend>Nombre y apellidos</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Aquí el nombre">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos">
+            </fieldset>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <ul>
+                    <li>
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad" required min="18" max="120">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </li>
+                    <li>
+                        <label for="comida">Comida favorita:</label>
+                        <select name="comida" id="comida">
+                            <optgroup label="Varios">
+                                <option value="tortilla">Tortilla</option>
+                                <option value="pulpo">Pulpo</option>
+                            </optgroup>
+                            <optgroup label="Carne">
+                                <option value="merluza">Merluza</option>
+                                <option value="lubina">Lubina</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Seguridad</legend>
+                <label for="password">Password:</label>
+                <input type="password" name="pasword" id="password">
+                <label for="newsletter">Recibir Newsletter:</label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+            </fieldset>
+            <fieldset>
+                <legend>Mis cosas</legend>
+                <label for="cosas">Cosas</label>
+                <textarea name="cosas" id="" cols="50" rows="10" id="cosas"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Provincia</legend>
+                <ul>
+                    <li>
+                        <label for="lugo">Lugo</label>
+                        <input type="radio" name="provincia" value="lugo">
+                    </li>
+                    <li>
+                        <label for="coruña">Coruña</label>
+                        <input type="radio" name="provincia" value="coruña">
+                    </li>
+                    <li>
+                        <label for="potevedra">Pontevedra</label>
+                        <input type="radio" name="provincia" value="pontevedra">
+                    </li>
+                    <li>
+                        <label for="ourense">Ourense</label>
+                        <input type="radio" name="provincia" value="ourense">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="foto">Sube tu foto</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+                <p>
+                    <label for="gasolina">¿Cuánta gasolina tiene tu coche?</label>
+                    <input type="range" name="gasolina" id="gasolina" min="10" max="100" step="20" value="0">
+                </p>
+                <p>
+                    <label for="nacimiento">¿Cuándo naciste?</label>
+                    <input type="date" name="nacimiento" id="nacimiento">
+                </p>
+                <p>
+                    <label for="color">¿Color favorito?</label>
+                    <input type="color" name="color" id="color">
+                </p>
+            </fieldset>
+            <input type="hidden" name="valo-oculto" value="1234">
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar</button>
+        </form>
+    </section>
+</body>
+
+</html>
